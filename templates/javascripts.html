@@ -1,0 +1,40 @@
+{% load compress %}
+{% load staticfiles %}
+
+{% compress js %}
+<script type="text/javascript" src="{% static 'jquery/jQuery.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'bootstrap/js/bootstrap.js' %}"></script>
+<script type="text/javascript" src="{% static 'bootstrap-material-design/js/material.js' %}"></script>
+<script type="text/javascript" src="{% static 'bootstrap-material-design/js/ripples.js' %}"></script>
+<script type="text/javascript" src="{% static 'underscore.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'angular/angular.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'angular/angular-route.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'angular/angular-cookies.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'ngDialog/js/ngDialog.js' %}"></script>
+<script type="text/javascript" src="{% static 'snackbarjs/snackbar.min.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'javascripts/MainAppModule.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/MainModule.config.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/authentication/authentication.module.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/posts/posts.module.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/utils/utils.module.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/MainAppRouter.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/authentication/services/authentication.service.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/authentication/controllers/register.controller.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/authentication/controllers/login.controller.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/layout/layout.module.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/layout/controllers/navbar.controller.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/posts/services/posts.service.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/utils/services/snackbar.service.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/layout/controllers/index.controller.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/posts/directives/posts.directive.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/posts/controllers/posts.controller.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/posts/directives/post.directive.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/posts/controllers/new-post.controller.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/profiles/profiles.module.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/profiles/services/profile.service.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/profiles/controllers/profile.controller.js' %}"></script>
+<script type="text/javascript" src="{% static 'javascripts/profiles/controllers/profile-settings.controller.js' %}"></script>
+{% endcompress %}
